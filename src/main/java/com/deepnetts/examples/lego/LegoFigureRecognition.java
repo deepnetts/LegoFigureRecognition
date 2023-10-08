@@ -90,7 +90,7 @@ public class LegoFigureRecognition {
         
         // save trained network to file
         try {
-            FileIO.writeToFile(legoPeopleNet, "legoPeople.net");
+            FileIO.writeToFile(legoPeopleNet, "legoPeople.dnet");
         } catch (IOException ex) {
             Logger.getLogger(LegoFigureRecognition.class.getName()).log(Level.SEVERE, null, ex);
         }
